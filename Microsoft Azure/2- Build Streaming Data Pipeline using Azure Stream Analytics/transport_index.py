@@ -3,8 +3,8 @@ import json
 from csv import reader
 from azure.eventhub import EventHubProducerClient, EventData
 
-connection_str = 'Endpoint=sb://projectstreaming.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=J7TLllOYb/cjzoSlLveEyFkIrgn/ccsNb+AEhFoi2Vo='
-eventhub_name = 'transport-stream'
+connection_str = ''
+eventhub_name = ''
 
 class Transport:   
     def __init__(self, reportyear, race_eth_code, race_eth_name, geoname, mode, mode_name, pop_total, pop_mode):
