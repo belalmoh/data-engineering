@@ -6,6 +6,7 @@ from azure.eventhub import EventHubProducerClient, EventData
 connection_str = ''
 eventhub_name = ''
 
+
 class Transport:   
     def __init__(self, reportyear, race_eth_code, race_eth_name, geoname, mode, mode_name, pop_total, pop_mode):
         self.reportyear = reportyear
