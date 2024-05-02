@@ -3,8 +3,8 @@ import json
 from csv import reader
 from azure.eventhub import EventHubProducerClient, EventData
 
-connection_str = 'REDACTED'
-eventhub_name = 'REDACTED'
+connection_str = '****'
+eventhub_name = '****'
 
 
 class Transport:   
